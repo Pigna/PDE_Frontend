@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './pages/Welcome.js';
+import HelloWorld from './pages/HelloWorld.js';
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
             </header>
             
             <Welcome name="Myron" />
+            <HelloWorld name="Class" />
         </div>
     );
 }
