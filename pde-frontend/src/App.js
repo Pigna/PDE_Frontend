@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Welcome from './pages/Welcome.js';
 import HelloWorld from './pages/HelloWorld.js';
+import Reaction from './pages/Reaction.js';
+import Login from './pages/Login.js';
 
 function App() {
     return (
@@ -23,6 +25,8 @@ function App() {
             
             <Welcome name="Myron" />
             <HelloWorld name="Class" />
+            <Reaction />
+            <Login />
         </div>
     );
 }
