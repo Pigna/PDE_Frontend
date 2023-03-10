@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.table {
+    border: 1px solid #282c34;
+}
+.table_name {
+    font-weight: bold;
+    color: orange;
 }

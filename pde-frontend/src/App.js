@@ -7,34 +7,22 @@ import Login from './pages/Login.js';
 import PostTest from './pages/PostTest.js';
 import GetTest from './pages/GetTest.js';
 import GetToObject from './pages/GetToObject.js';
+import GetTables     from './pages/database/GetTables.js';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload. hai
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
             </header>
-
+            <PostTest />
+            <GetTest />
+            <GetToObject />
             <Welcome name="Myron" />
             <HelloWorld name="Class" />
             <Reaction />
             <Login />
-            <PostTest />
-            <GetTest />
-            <GetToObject />
+            <GetTables />
         </div>
     );
 }
-
 export default App;

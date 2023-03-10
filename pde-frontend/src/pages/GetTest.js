@@ -11,7 +11,7 @@ class GetTest extends React.Component {
 
     componentDidMount() {
         // Simple GET request using fetch
-        fetch('http://localhost:5287/WeatherForecast')
+        fetch('http://localhost:26645/WeatherForecast')
             .then(response => response.json())
             .then(data => this.setState({ totalReactPackages: data[0].date }));
     }
