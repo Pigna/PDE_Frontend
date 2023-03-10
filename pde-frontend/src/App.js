@@ -4,6 +4,9 @@ import Welcome from './pages/Welcome.js';
 import HelloWorld from './pages/HelloWorld.js';
 import Reaction from './pages/Reaction.js';
 import Login from './pages/Login.js';
+import PostTest from './pages/PostTest.js';
+import GetTest from './pages/GetTest.js';
+import GetToObject from './pages/GetToObject.js';
 
 function App() {
     return (
@@ -22,11 +25,14 @@ function App() {
                     Learn React
                 </a>
             </header>
-            
+
             <Welcome name="Myron" />
             <HelloWorld name="Class" />
             <Reaction />
             <Login />
+            <PostTest />
+            <GetTest />
+            <GetToObject />
         </div>
     );
 }
